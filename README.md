@@ -34,5 +34,5 @@ To build:
 
 To run
 
-    ./Qt_bmp180_I2C
+    ./bmp180_testProgram
 
