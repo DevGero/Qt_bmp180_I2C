@@ -11,7 +11,7 @@ It will diplay the temperature on a graph. For accessing the gpio is use the wir
 
 Hardware
 --------------
-Power ->   pin 3.3V
+Power -> pin 3.3V
 
 SDA   -> GPIO2 (8)
 
@@ -24,23 +24,15 @@ Software
 
 To clone the git repository:
 
-    git clone https://github.com/DevGero/Qt-RPI_ServoThread.git    
+    git clone https://github.com/DevGero/Qt_bmp180_I2C.git  
 
 To build:
 
-    cd Qt-RPI_ServoThread/ServoCode
+    cd Qt_bmp180_I2C
     qmake
     make
 
-To run it needs to be as root user to be able to access the PWM.
+To run
 
-    sudo ./Servo_Butons_Threads
+    ./Qt_bmp180_I2C
 
-Possible trouble
-----------------
-
-If it screen an error of not been able to access the interface resources type:
-
-    sudo cp /home/pi/.Xauthority /root
-
-and try again.
